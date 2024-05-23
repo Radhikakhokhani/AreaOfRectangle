@@ -1,0 +1,30 @@
+public class Student {
+    private String name;
+
+    // Constructor with default name "Unknown"
+    public Student() {
+        this.name = "Unknown";
+    }
+
+    // Constructor with specified name
+    public Student(String name) {
+        this.name = name;
+    }
+
+    // Method to print the student's name
+    public void printName() {
+        System.out.println(this.name);
+    }
+
+    public static void main(String[] args) {
+        // Creating student objects
+        Student student1 = new Student();
+        Student student2 = new Student("Alice");
+        Student student3 = new Student("Bob");
+
+        // Printing the names of the students
+        student1.printName();
+        student2.printName();
+        student3.printName();
+    }
+}
