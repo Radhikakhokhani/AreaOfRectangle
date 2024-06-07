@@ -30,7 +30,7 @@ public class Student
 		    	System.out.println("Student Name : "+ student1.getName());
 		    	
 		    	// Creating object with passing Name
-		    	Student student2 = new Student("Hirva");
+		    	Student student2 = new Student("Radhika");
 		    	System.out.println("Student Name : "+ student2.getName());
 		    }
 }
